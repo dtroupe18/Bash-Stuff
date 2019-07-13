@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [[ `grep -e develop -e master` ]]; then
-	read -p "You're trying to push to develop or master are you sure you want to do this?" -n 2 -r < /dev/tty
+	read -p "You're trying to push to develop or master are you sure you want to do this? (y/n)  " -n 2 -r < /dev/tty
 	echo
     if echo $REPLY | grep -E '^[Yy]$' > /dev/null; then
         exit 0
