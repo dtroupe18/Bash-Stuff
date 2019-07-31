@@ -2,7 +2,7 @@ alias thriller='cd ~/Documents/iOS_Applications/thriller/'
 alias snapshots='cd ~/Documents/iOS_Applications/thriller/WaveTests/UI/Snapshots/__Snapshots__'
 
 alias open='open .'
-alias openbash='open -e ~/.bash_profile'
+alias bashprofile='open -e ~/.bash_profile'
 alias sourcebash='source ~/.bash_profile'
 
 alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
@@ -15,6 +15,7 @@ alias add='git add .'
 alias push='git push'
 alias pull='git pull'
 alias searchbranch='git branch -a | grep'
+alias discard='git reset --hard'
 
 # The Fuck configuration.
 eval $(thefuck --alias)
