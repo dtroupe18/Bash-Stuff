@@ -1,8 +1,3 @@
-alias thriller='cd ~/thriller/'
-alias snapshots='cd ~/thriller/WaveTests/UI/Snapshots/__Snapshots__'
-alias hotel='cd /Users/dave/Documents/iOS_Applications/HotelZapr'
-alias hotelsnap='cd /Users/dave/Documents/iOS_Applications/HotelZapr/HotelZaprTests/SnapshotTests'
-
 alias open='open .'
 alias bash_profile='open -e ~/.bash_profile'
 alias source_bash='source ~/.bash_profile'
